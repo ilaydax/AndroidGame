@@ -1,5 +1,5 @@
-
-## *Android Game- Harry Potter*
+(YazLab1-3)
+## *Android Game- Harry Potter* 
 </br>
 Bu proje ile Android uygulama ve bulut bilişim teknolojilerinin kullanılması 
 amaçlanmıştır. 
