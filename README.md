@@ -1,13 +1,16 @@
-# AndroidGame
-Android Game- Harry Potter
+
+## *Android Game- Harry Potter*
+</br>
 Bu proje ile Android uygulama ve bulut bilişim teknolojilerinin kullanılması 
 amaçlanmıştır. 
+</br>
 Projede belirtilen süre içinde zorluk seviyesine göre kartları doğru eşleştirmek gerekmektedir. 
+</br>
 Proje Android Studio ve Firebase kullanılarak geliştirilmiştir. 
+</br>
 
-![image](https://github.com/ilaydax/AndroidGame/assets/93269919/f7ce38bf-59a2-4683-82d6-7cd231cf096c)
-![image](https://github.com/ilaydax/AndroidGame/assets/93269919/465f6a16-a598-4544-85ef-e991933c1cd1)
-![image](https://github.com/ilaydax/AndroidGame/assets/93269919/ff84bfaa-febf-4f1a-875f-05181b56ce5d)
-![image](https://github.com/ilaydax/AndroidGame/assets/93269919/ff81e434-746f-45ba-8e18-caf34e92ae56)
-![image](https://github.com/ilaydax/AndroidGame/assets/93269919/37167bbb-f609-4d51-8921-b2454a874f44)
+![Merged_document](https://github.com/ilaydax/AndroidGame/assets/93269919/b2af4bfe-1328-4040-a530-47956a0236d0)
+![Merged_document (1)](https://github.com/ilaydax/AndroidGame/assets/93269919/6dedd410-9538-4b0a-bada-180eca1ea7fb)
+
+</br>
 
