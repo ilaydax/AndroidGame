@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkatema1"
+    tools:context=".MainActivity42">
+
+    <TextView
+        android:id="@+id/textView402"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Memory Master"
+        android:textSize="36sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3302"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView402"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button3402"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button3502"
+        app:layout_constraintStart_toEndOf="@+id/button3302"
+        app:layout_constraintTop_toBottomOf="@+id/textView402"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button3502"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button3602"
+        app:layout_constraintTop_toBottomOf="@+id/textView402"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button3602"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button3702"
+        app:layout_constraintTop_toBottomOf="@+id/textView402"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button3702"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button3802"
+        app:layout_constraintTop_toBottomOf="@+id/textView402"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button3802"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView402"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button3902"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3302"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button4002"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button4102"
+        app:layout_constraintStart_toEndOf="@+id/button3902"
+        app:layout_constraintTop_toBottomOf="@+id/button3402"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button4102"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button4202"
+        app:layout_constraintTop_toBottomOf="@+id/button3502"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button4202"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button4302"
+        app:layout_constraintTop_toBottomOf="@+id/button3602"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button4302"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button4402"
+        app:layout_constraintTop_toBottomOf="@+id/button3702"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button4402"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3802"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button4502"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3902"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button4602"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button4702"
+        app:layout_constraintStart_toEndOf="@+id/button4502"
+        app:layout_constraintTop_toBottomOf="@+id/button4002"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button4702"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button4802"
+        app:layout_constraintTop_toBottomOf="@+id/button4102"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button4802"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button4902"
+        app:layout_constraintTop_toBottomOf="@+id/button4202"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button4902"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button5002"
+        app:layout_constraintTop_toBottomOf="@+id/button4302"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button5002"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4402"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button5102"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4502"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button5202"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button5302"
+        app:layout_constraintStart_toEndOf="@+id/button5102"
+        app:layout_constraintTop_toBottomOf="@+id/button4602"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button5302"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button5402"
+        app:layout_constraintTop_toBottomOf="@+id/button4702"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button5402"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button4902"
+        app:layout_constraintTop_toBottomOf="@+id/button4802"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button5502"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button5602"
+        app:layout_constraintTop_toBottomOf="@+id/button4902"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button5602"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5002"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button5702"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5102"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button5802"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button5902"
+        app:layout_constraintStart_toEndOf="@+id/button5702"
+        app:layout_constraintTop_toBottomOf="@+id/button5202"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button5902"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button6002"
+        app:layout_constraintTop_toBottomOf="@+id/button5302"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button6002"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button6102"
+        app:layout_constraintTop_toBottomOf="@+id/button5402"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button6102"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button6202"
+        app:layout_constraintTop_toBottomOf="@+id/button5502"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button6202"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5602"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button6302"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5702"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button6402"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button6502"
+        app:layout_constraintStart_toEndOf="@+id/button6302"
+        app:layout_constraintTop_toBottomOf="@+id/button5802"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button6502"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button6602"
+        app:layout_constraintTop_toBottomOf="@+id/button5902"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button6602"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button6702"
+        app:layout_constraintTop_toBottomOf="@+id/button6002"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button6702"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button6802"
+        app:layout_constraintTop_toBottomOf="@+id/button6102"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button6802"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6202"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewsure202"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="132dp"
+        android:text="TextView4"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/puan402"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/basla402"
+        app:layout_constraintTop_toBottomOf="@+id/button6802" />
+
+    <TextView
+        android:id="@+id/puan402"
+        android:layout_width="102dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="12dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/puan404"
+        app:layout_constraintStart_toEndOf="@+id/basla402"
+        app:layout_constraintTop_toBottomOf="@+id/textViewsure202" />
+
+    <Button
+        android:id="@+id/basla402"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="BASLA"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton302"
+        app:layout_constraintEnd_toStartOf="@+id/textViewsure202"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6802"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/imageButton302"
+        android:layout_width="73dp"
+        android:layout_height="59dp"
+        android:contentDescription="TODO"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/puan402"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/basla402"
+        app:srcCompat="@drawable/musicicon" />
+
+    <TextView
+        android:id="@+id/puan404"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/puan402"
+        app:layout_constraintTop_toBottomOf="@+id/textViewsure202"
+        app:layout_constraintVertical_bias="0.687" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkatema5"
+    tools:context=".MainKayitOl">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="106dp"
+        android:layout_marginBottom="26dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toTopOf="@+id/KayitMailAdresi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/KayitMailAdresi"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="11dp"
+        android:autofillHints=""
+        android:background="@drawable/arkaplanedittext"
+        android:drawableStart="@drawable/logo2"
+        android:ems="10"
+        android:hint="Mail Adresinizi Giriniz."
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/KayitKullaniciAdi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/KayitKullaniciAdi"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="15dp"
+        android:autofillHints=""
+        android:background="@drawable/arkaplanedittext"
+        android:drawableStart="@drawable/logo2"
+        android:ems="10"
+        android:hint="Kullanıcı Adınızı Oluşturunuz."
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/KayitParola"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/KayitMailAdresi" />
+
+    <EditText
+        android:id="@+id/KayitParola"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:background="@drawable/arkaplanedittext"
+        android:drawableStart="@drawable/kilit"
+        android:ems="10"
+        android:hint="Parolanızı Oluşturunuz."
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnKaydet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/KayitKullaniciAdi" />
+
+    <Button
+        android:id="@+id/btnKaydet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Kaydet"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/KayitParola" />
+
+    <Button
+        android:id="@+id/btnGirisDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="95dp"
+        android:text="Giriş Sayfasına Dön"
+        android:textColor="#E1BEE7"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnKaydet"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

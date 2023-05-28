@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkatema1"
+    tools:context=".MainActivity32">
+
+    <TextView
+        android:id="@+id/textView303"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Memory Master"
+        android:textColor="@color/white"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2903"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toStartOf="@+id/button3003"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView303"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button3003"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView303"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button3103"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2903"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button3203"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/arkayuz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toEndOf="@+id/button3103"
+        app:layout_constraintTop_toBottomOf="@+id/button3003"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewsure303"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/puan303"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3203"
+        app:layout_constraintVertical_bias="0.706" />
+
+    <TextView
+        android:id="@+id/puan303"
+        android:layout_width="112dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="80dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/puan304"
+        app:layout_constraintStart_toEndOf="@+id/imageButton203"
+        app:layout_constraintTop_toBottomOf="@+id/basla303" />
+
+    <Button
+        android:id="@+id/basla303"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="24dp"
+        android:text="BASLA"
+        app:layout_constraintBottom_toTopOf="@+id/puan303"
+        app:layout_constraintEnd_toStartOf="@+id/textViewsure303"
+        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3203" />
+
+    <ImageButton
+        android:id="@+id/imageButton203"
+        android:layout_width="73dp"
+        android:layout_height="59dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/puan303"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/basla303"
+        app:layout_constraintVertical_bias="0.344"
+        app:srcCompat="@drawable/musicicon"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/puan304"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewsure303"
+        app:layout_constraintVertical_bias="0.284" />
+</androidx.constraintlayout.widget.ConstraintLayout>

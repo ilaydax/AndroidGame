@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PicMatching</string>
+    <string name="todox">TODO</string>
+    <string name="textviewy">TextView</string>
+    <string name="memory_masterx">Memory Master</string>
+    <string name="textviewz">TextView</string>
+    <string name="basla2">BAŞLA</string>
+    <string name="todoxyz">TODO</string>
+    <string name="memory_master4">Memory Master</string>
+    <string name="textview4">TextView4</string>
+    <string name="textview42">TextView</string>
+    <string name="basla4">BASLA</string>
+    <string name="oyuncu_sayisi5">OYUNCU SAYISI</string>
+    <string name="ft5">ÇİFT</string>
+    <string name="tek5">TEK</string>
+    <string name="seviye5">SEVİYE</string>
+    <string name="_2_2x">2*2</string>
+    <string name="_4_4x">4*4</string>
+    <string name="_6_6x">6*6</string>
+    <string name="devam4">Devam</string>
+</resources>
