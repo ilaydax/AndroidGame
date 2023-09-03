@@ -1,12 +1,11 @@
 (YazLab1-3)
 ## *Android Game- Harry Potter* 
 </br>
-Bu proje ile Android uygulama ve bulut bilişim teknolojilerinin kullanılması 
-amaçlanmıştır. 
+With this project, it is aimed to use Android application and cloud computing technologies.
 </br>
-Projede belirtilen süre içinde zorluk seviyesine göre kartları doğru eşleştirmek gerekmektedir. 
+The cards must be matched correctly according to the difficulty level within the time specified in the project.
 </br>
-Proje Android Studio ve Firebase kullanılarak geliştirilmiştir. 
+The project was developed using Android Studio and Firebase. 
 </br>
 </br>
 
